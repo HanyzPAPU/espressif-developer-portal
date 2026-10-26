@@ -11,6 +11,7 @@ Welcome to the Introduction to the ESP32-S31: Security workshop!
 ## About this workshop
 
 This workshop introduces the ESP32-S31 and its security capabilities through a series of focused, hands-on topics. You will examine firmware authenticity, data confidentiality, secure storage, and protected communications.
+ The labs use [CLion](https://www.jetbrains.com/clion/) with ESP-IDF to build, configure, and debug the firmware, so you also get a practical introduction to an IDE-based ESP-IDF workflow.
 
 The workshop also relates these capabilities to the technical requirements of the European Union Cyber Resilience Act (CRA). An SoC is not, by itself, CRA-compliant. Compliance applies to a product with digital elements and includes responsibilities beyond silicon, such as secure product design, vulnerability handling, documentation, and lifecycle support. The ESP32-S31 features covered here can help manufacturers build products that meet relevant CRA requirements.
 
@@ -53,6 +54,7 @@ By the end of the workshop, you will be able to:
 - Protect data in transit with TLS
 - Observe an instructor-led **TLS power consumption** demo with Qoitech Otii (closing [Assignment 1](assignment-1/#closing-demo-tls-power-consumption))
 - Map technical controls to product-level CRA compliance activities
+- Build, configure, and run ESP-IDF security projects in CLion
 
 ## Prerequisites
 
@@ -80,6 +82,7 @@ To follow this workshop, you will need the following hardware and software.
 - Git
 - A recent desktop web browser for the [ESP32 emulator](https://espressif.github.io/esp-emulator/) (Assignments 2 to 4)
 - For the optional Assignment 5: the native `esp-emu` tool from the [`esp-emulator` repository](https://github.com/espressif/esp-emulator), and Python 3 to run the test OTA server
+- [CLion](https://www.jetbrains.com/clion/), configured for ESP-IDF, [see documentation] (https://www.jetbrains.com/help/clion/esp-idf.html).
 
 ## Agenda
 
